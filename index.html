@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <a href="contasimples:///app/auth/auth-mfa/auth-mfa-validate-qrcode">ABRIR DEEPLINKING LINK</a>
+
+    <button onclick="handleOpenDeepLinking()" type="button">ABRIR DEEPLINKING BOTÃO</button>
+    
+
+    <script>
+        console.log("oi")
+
+        function handleOpenDeepLinking(){
+            window.location.href = 'contasimples:///app/auth/auth-mfa/auth-mfa-validate-qrcode';
+        }
+    </script>
+</body>
+</html>
